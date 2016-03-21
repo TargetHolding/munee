@@ -1,5 +1,8 @@
 <?php
 
+
+define('MUNEE_USING_URL_REWRITE', true);
+
 use Munee\Asset\Registry;
 // DIRECTORY_SEPARATOR alias
 defined('DS') || define('DS' , DIRECTORY_SEPARATOR);
