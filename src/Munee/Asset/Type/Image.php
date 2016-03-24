@@ -129,7 +129,7 @@ class Image extends Type
      * @throws ErrorException
      */
     protected function checkReferrer()
-    {
+    {/*
         if (! isset($_SERVER['HTTP_REFERER'])) {
             throw new ErrorException('Direct image manipulation is not allowed.');
         }
@@ -138,7 +138,7 @@ class Image extends Type
         if (! preg_match("%^{$_SERVER['SERVER_NAME']}%", $referrer)) {
             throw new ErrorException('Referrer does not match the correct domain.');
         }
-    }
+    */}
 
     /**
      * Check number of allowed resizes within a set time limit
